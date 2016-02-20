@@ -72,6 +72,7 @@ Creating a Django model for the examples::
 Defining a basic ``DjangoItem``::
 
     from scrapy_djangoitem import DjangoItem
+    from mysite.models import Person
 
     class PersonItem(DjangoItem):
         django_model = Person
